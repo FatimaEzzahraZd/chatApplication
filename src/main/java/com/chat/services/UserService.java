@@ -31,6 +31,9 @@ public class UserService implements IUserService {
 	public void delete(Long idUser) {
          repo.deleteById(idUser);		
 	}
+
+
+
 	
 	
 
